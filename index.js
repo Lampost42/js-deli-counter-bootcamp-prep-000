@@ -13,5 +13,18 @@ function nowServing(katzDeliLine) {
   }
 }
 function currentLine(katzDeliLine) {
-  
+  if (katzDeliLine.length > 0) {
+    var line = [];
+    for (var i = 0; i < katzDeliLine.length; i++) {
+      var num = i + 1;
+      var name = katzDeliLine[i];
+      if (i === 0) {
+        line.push(`${num}. ${name}`)
+      } else {
+        line.push(`, ${num}. ${name}`)
+      }
+      }
+      return(`)
+    }
+  }
 }
