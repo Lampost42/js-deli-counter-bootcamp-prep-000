@@ -3,3 +3,4 @@ function takeANumber (katzDeliLine, name) {
   var number = katzDeliLine.length
   return(`Welcome, ${name}. You are number ${number} in line.`)
 }
+function nowServing()
